@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
           <div>
             <h3>phone</h3>
-            <Link href="tel:7087699451">708-769-9451</Link>
+            <Link href="tel:+17087699451">708-769-9451</Link>
           </div>
         </div>
         <div className='flex-column'>

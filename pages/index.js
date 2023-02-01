@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import Navigation from '@/components/Navigation'
-import Footer from '@/components/Footer'
+import Hero from '@/components/Hero'
+import Description from '@/components/Description'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,10 +17,16 @@ export default function Home() {
         <link rel="icon" href="/logo.ico" />
       </Head>
       <main>
-        <h1>Homepage</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, minima.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, nemo?</p>
+        <Hero />
+        <Description />
+        <section>
+          <h1>services highlight</h1>
+        </section>
+        <section>
+          <h1>reviews</h1>
+        </section>
       </main>
+
     </>
   )
 }
