@@ -1,12 +1,15 @@
-import styles from '@/styles/Home.module.css'
 
 const Hero = () => {
   return (
-    <div className={styles.hero}>
-      <h1 className={styles.hero__text}>
+    <section
+      className="
+        h-screen overflow-hidden snap-start
+        flex justify-center items-center"
+    >
+      <h1 className="opacity font-highlight text-4xl tracking-widest">
         Pet services in Elmwood Park  <br /> & surrounding neighborhoods
       </h1>
-    </div>
+    </section>
   );
 }
 
