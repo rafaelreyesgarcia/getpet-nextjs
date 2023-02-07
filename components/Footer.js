@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className='snap-start'>
+    <footer>
       <div className='flex-row'>
         <div>
           <h2>get in touch</h2>
