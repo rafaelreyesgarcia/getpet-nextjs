@@ -5,6 +5,7 @@ import Services from '@/components/Services'
 import Reviews from '@/components/Reviews'
 import Faq from '@/components/Faq'
 import Footer from '@/components/Footer'
+import About from '@/components/About'
 
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
       </Head>
       <Header />
       <Hero />
+      <About />
       <Services />
       <Reviews />
       <Faq />

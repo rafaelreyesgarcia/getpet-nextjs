@@ -7,7 +7,6 @@ const Navigation = () => {
         flex gap-5 items-center"
     >
       <Link href="/">Home</Link>
-      <Link href="/about">About</Link>
       <Link href="/services" >Services</Link>
       <Link href="/services" >Contact</Link>
     </nav>

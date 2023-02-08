@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const services = [
   {
     image: '/walking.png',
@@ -38,9 +40,9 @@ const Services = () => {
             key={service.title}
             className='
               flex flex-col justify-center items-center gap-4
-              text-center mr-4
+              text-center
               snap-start
-              bg-gray-400/40 rounded-2xl p-4'
+              bg-gray-300/20 rounded-2xl p-4'
           >
             <div className="w-52 h-52">
               <img src={service.image} alt={service.title}/>
@@ -54,7 +56,7 @@ const Services = () => {
                 bg-gradient-to-l from-indigo-500/40 to-blue-500/40
                 hover:from-indigo-500 hover:to-blue-500"
             >
-              learn more
+              <Link href="/services">learn more</Link>
             </button>
           </div>
         ))}

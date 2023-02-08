@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
-.flex-column{
-  flex-direction: column;
+@layer base {
+  .item {
+    @apply capitalize
+    rounded-lg md:px-1
+    bg-indigo-500/50
+  }
 }
+

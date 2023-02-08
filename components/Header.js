@@ -24,7 +24,9 @@ const Header = () => {
         <Link href="https://www.facebook.com/Petservicesinelmwoodpark" target="_blank">
           <FacebookIcon />
         </Link>
-        <Link href="tel:+17087699451">708-769-9451</Link>
+        <Link href="tel:+17087699451" className="hidden md:block">
+          708-769-9451
+        </Link>
       </div>
     </header>
   );
