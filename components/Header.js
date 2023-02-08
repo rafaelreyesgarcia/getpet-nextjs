@@ -1,20 +1,30 @@
 import Navigation from "./Navigation";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import Link from "next/link";
+import { motion } from "framer-motion";
 
-const Header = () => {
+const Header = ({initial}) => {
+
   return (
-    <header
+    <motion.header
       className="
         flex justify-between
         px-2 py-1
         sticky top-0 z-20"
+      initial={initial}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
     >
       <div
         className="
           max-w-full w-16"
       >
-        <Link href="/"><img src="/logo.png" alt="logo" /></Link>
+        <Link href="/">
+          <motion.img
+            src="/logo.png"
+            alt="logo"
+          />
+        </Link>
       </div>
       <Navigation />
       <div
@@ -28,7 +38,7 @@ const Header = () => {
           708-769-9451
         </Link>
       </div>
-    </header>
+    </motion.header>
   );
 }
 

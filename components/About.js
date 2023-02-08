@@ -30,7 +30,7 @@ export default function About() {
           <br />
           <p className='font-body'>My name is Kelley Smith and I offer pet services in Elmwood Park and the surrounding neighborhoods.</p>
           <br />
-          <p className='font-body'>I am a trustworthy and honest person that stands by the saying: <blockquote className='item font-extrabold py-2 my-4'><em>treat others the way you want to be treated</em></blockquote> meaning that I will respect your house as if it was mine.</p>
+          <p className='font-body'>I am a trustworthy and honest person that stands by the saying: <q className='item font-extrabold py-2 my-4 block'><em>treat others the way you want to be treated</em></q> meaning that I will respect your house as if it was mine.</p>
           <br />
           <p className='font-body'>
           Let your pet be the judge! Pets have an amazing sense detecting character and personality in a person.🐶🐱💝

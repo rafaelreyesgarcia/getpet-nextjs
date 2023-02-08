@@ -7,6 +7,9 @@ import Faq from '@/components/Faq'
 import Footer from '@/components/Footer'
 import About from '@/components/About'
 
+const initial = {
+  opacity: 0
+};
 
 export default function Home() {
   return (
@@ -30,7 +33,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Hind:wght@500;600;700&display=swap" rel="stylesheet"></link>
       </Head>
-      <Header />
+      <Header initial={initial} />
       <Hero />
       <About />
       <Services />
