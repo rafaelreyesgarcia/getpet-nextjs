@@ -110,7 +110,8 @@ const Footer = () => {
               <li className='item'>franklin park</li>
             </ul>
             <div className=''>
-              <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1pbrOtULe9fHZLC8FxSbUcK9YsjrUOfA&ehbc=2E312F" height="200"></iframe>
+              {/* issue with map embedding */}
+            <iframe src="https://www.google.com/maps/d/embed?mid=1pbrOtULe9fHZLC8FxSbUcK9YsjrUOfA&ehbc=2E312F" height="200"></iframe>
             </div>
           </div>
         </div>

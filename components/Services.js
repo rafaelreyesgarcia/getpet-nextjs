@@ -31,7 +31,7 @@ const Services = () => {
       <div
         className="
           flex flex-col gap-14 items-center
-          md:flex-row md:justify-around md:overflow-hidden md:gap-0
+          md:flex-row md:justify-around md:gap-0
           snap-y snap-mandatory overflow-x-scroll
           w-full pb-8 mt-4"
       >
