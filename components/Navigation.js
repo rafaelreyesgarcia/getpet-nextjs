@@ -30,6 +30,7 @@ const Navigation = () => {
             whileHover={{ scale: 1.5 }}
             transition={{ duration: 0.3 }}
             className="uppercase"
+            key={link.name}
           >
             <Link href={link.pageURL}>{link.name}</Link>
           </motion.div>

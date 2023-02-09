@@ -51,8 +51,8 @@ export default function Faq() {
       <div>
         {faqs.map((faq) => {
           return (
-            <>
-              <Accordion key={faq.question}>
+            <div key={faq.question}>
+              <Accordion>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1a-content"
@@ -66,7 +66,7 @@ export default function Faq() {
                   </p>
                 </AccordionDetails>
               </Accordion>
-            </>
+            </div>
           )
         })}
       </div>
